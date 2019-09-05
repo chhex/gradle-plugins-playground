@@ -1,1 +1,17 @@
+apply plugin: test.InhouseConventionJavaPlugin
 
+javaConventions {
+	configure()
+
+}
+println sourceSets.main.java.srcDirs
+
+javaConventions.sourceDir = "src/main/java"
+
+println sourceSets.main.java.srcDirs
+
+
+javaConventions.configure()
+
+
+println sourceSets.main.java.srcDirs

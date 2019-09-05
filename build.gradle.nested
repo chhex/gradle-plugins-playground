@@ -1,0 +1,23 @@
+apply plugin: test.NestedDemoPlugin
+
+nestedExtension {
+	toLog()
+
+}
+println "Logging via Build value of: someRootProperty " 
+println nestedExtension.someRootProperty
+println "Logging via Build done."
+println "Logging via Build toLog: "
+nestedExtension.toLog()
+println "Logging via Build done."
+println "Logging via Nested"
+nestedExtension.nestedProperties.toLog()
+println "Logging via Nested done"
+nestedExtension.someRootProperty  = "another Value"
+nestedExtension.nestedProperties.nestedProperty = "another Nested Property value"
+println "Logging via Build toLog: "
+nestedExtension.toLog()
+println "Logging via Build done."
+println "Logging via Nested"
+nestedExtension.nestedProperties.toLog()
+println "Finished"
