@@ -1,4 +1,4 @@
-package test;
+package nestedtest;
 import javax.inject.Inject;
 
 import org.gradle.api.Action;

@@ -1,4 +1,4 @@
-package test;
+package extensiontest;
 import java.util.Arrays;
 
 import javax.inject.Inject;

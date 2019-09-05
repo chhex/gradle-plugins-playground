@@ -1,4 +1,4 @@
-package test;
+package nestedtest;
 import org.gradle.api.NonNullApi;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;

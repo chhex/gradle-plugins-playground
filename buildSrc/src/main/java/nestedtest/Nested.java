@@ -1,4 +1,4 @@
-package test;
+package nestedtest;
 import org.gradle.api.logging.Logger;
 
 public class Nested {

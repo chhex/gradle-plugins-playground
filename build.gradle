@@ -1,4 +1,4 @@
-apply plugin: test.InhouseConventionJavaPlugin
+apply plugin: extensiontest.InhouseConventionJavaPlugin
 
 javaConventions {
 	configure()
