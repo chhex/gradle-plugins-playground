@@ -1,2 +1,2 @@
-# gradle-plugins-playground
-Playground for Gradle Plugin development features 
+# Implementing Gradle Plugins
+Playground for Gradle Plugin development features and patterns 
